@@ -8,9 +8,9 @@ class UnsupportedDevice extends React.Component {
                 <div className="UnsupportedDevice__content">
                     <img className="UnsupportedDevice__logo" src={'/img/logo/dnero_wallet_logo@2x.png'}/>
                     <div className="UnsupportedDevice__title">
-                        This wallet is designed for desktop. Try our mobile wallets!
+                        This wallet is currently designed for desktop use only.
                     </div>
-                    <a className="UnsupportedDevice__app-store-badge"
+                    {/* <a className="UnsupportedDevice__app-store-badge"
                        href="https://itunes.apple.com/app/dnero-wallet/id1451094550?mt=8"
                        target="_blank"
                     >
@@ -21,7 +21,7 @@ class UnsupportedDevice extends React.Component {
                        target="_blank"
                     >
                         <img src="/img/badges/google-play@2x.png"/>
-                    </a>
+                    </a> */}
                 </div>
             </div>
         );
